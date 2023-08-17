@@ -1,0 +1,97 @@
+.heading{
+    color: rgb(49, 155, 221);
+    margin-left: 10.5%;
+}
+
+.heading2{
+    color: rgb(0, 208, 90);
+    margin-left: 10.5%;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+}
+
+form input{
+    border: 1px solid black;
+    height : 25px;
+    margin-left: 10px;
+    font-weight: bold; 
+}
+
+form select{
+    border: 1px solid black;
+    height : 27px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+form button{
+    margin-left: 15px;
+    background-color: rgb(95, 153, 9);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 25px;
+    border-radius: 2px;
+    width: 100px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: white;
+    color: rgb(95, 153, 9);
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#filterSort{
+    width: 50%;
+    margin: auto;
+}
+
+#filterSort label{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#filterSort select{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#cardBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+}
+
+.travel-card{
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 85%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.travel-card button{
+ color: white;
+ background-color: red;
+ height: 25px;
+ border-radius: 2px;
+ border: none;
+ cursor: pointer;
+ font-weight: bold;
+ width: 20%;
+ margin-bottom: 10px;
+}
+
+.travel-card button:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+}
